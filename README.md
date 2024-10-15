@@ -5,7 +5,6 @@ This project implements a simple matrix factorization recommender system using o
 ## Requirements
 
 - Python 3.x
-- MongoDB running (local or Docker)
 
 ## Installation
 
@@ -14,11 +13,19 @@ This project implements a simple matrix factorization recommender system using o
    git clone <repository_url>
    cd matrix_factorization
 
-2. Download the dataset:
+2. Create virtual env
    ```bash
+python3 -m venv venv 
+source venv/bin/activate 
+pip install --upgrade pip 
+pip install -r requirements.txt
+
+2. Download the dataset:
 https://www.kaggle.com/datasets/aigamer/movie-lens-dataset
 
 3. Run the file 
    ```bash
    python main.py
+
+
 
