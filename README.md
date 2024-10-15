@@ -13,3 +13,12 @@ This project implements a simple matrix factorization recommender system using o
    ```bash
    git clone <repository_url>
    cd matrix_factorization
+
+2. Download the dataset:
+   ```bash
+https://www.kaggle.com/datasets/aigamer/movie-lens-dataset
+
+3. Run the file 
+   ```bash
+   python main.py
+
