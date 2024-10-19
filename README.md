@@ -10,15 +10,16 @@ This project implements a simple matrix factorization recommender system using o
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd matrix_factorization
+   git clone https://github.com/ZhannaOrlova/matrix_factorization.git
+   ```
 
 2. Create virtual env
    ```bash
-python3 -m venv venv 
-source venv/bin/activate 
-pip install --upgrade pip 
-pip install -r requirements.txt
+   python3 -m venv venv 
+   source venv/bin/activate 
+   pip install --upgrade pip 
+   pip install -r requirements.txt 
+``` 
 
 2. Download the dataset:
 https://www.kaggle.com/datasets/aigamer/movie-lens-dataset
@@ -26,6 +27,7 @@ https://www.kaggle.com/datasets/aigamer/movie-lens-dataset
 3. Run the file 
    ```bash
    python main.py
+   ```
 
 
 
